@@ -20,7 +20,7 @@ region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "Stage=\"staging\""
 image_repositories = []
-
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1f0mtqtjfscly"
 
 [production]
 [production.deploy]
@@ -31,4 +31,4 @@ region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "Stage=\"production\""
 image_repositories = []
-
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1f0mtqtjfscly"
