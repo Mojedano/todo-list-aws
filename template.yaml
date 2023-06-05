@@ -9,7 +9,7 @@ Description: >
 Parameters:
   Stage:
     Type: String
-    Default: default
+    Default: production
     AllowedValues:
       - default
       - staging
